@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class scr_bQuitGame : MonoBehaviour
+{
+    //Script is put onto an empty, which is then put onto the Quit Button's 'On Click' section which will close the game when pressed
+    public void Quitgame()
+    {
+        Application.Quit();
+    }
+}
